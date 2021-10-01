@@ -56,3 +56,18 @@
 
 ### FOR LOOPS ###
 
+# print('my name is')
+# for i in range(5):
+#     print('j five tim ' + str(i))
+
+
+# total = 0
+# for num in range(101):
+#     total = total + num
+#
+# print(total)
+
+print('my name is')
+for i in range(0, 10, 2):
+    print('j five tim' + str(i))
+    
