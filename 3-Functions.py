@@ -2,9 +2,7 @@ import random, sys, os, math
 import pyperclip
 
 def main():
-    print('Hello')
-    print(random.randint(1,10))
-    pyperclip.paste()
+
 
 
 
@@ -18,7 +16,9 @@ def main():
 if __name__ == '__main__':
     main()
 
-
+print('Hello')
+    print(random.randint(1,10))
+    pyperclip.paste()
 
 #Cant use multiprocessng without if name main idiom
 #Faster exec time with functions
