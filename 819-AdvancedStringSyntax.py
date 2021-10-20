@@ -9,5 +9,23 @@ def main():
     print(r'Hello')
     print(r'That is a cat')
 
+    print(""" Test,
+    test two
+    tree
+    
+    leaves
+    house""")
+
+    testlength = """ Test,
+    test two
+    tree
+    
+    leaves
+    house"""
+
+    print(len(testlength))
+
+    print(testlength[0:6])
+
 if __name__ == '__main__':
     main()
